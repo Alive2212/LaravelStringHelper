@@ -49,7 +49,6 @@ class DemoTest extends TestCase
     public function testBasicTest()
     {
         $stringHelper = $this->app->make("StringHelper");
-        echo "\n\n I am most powerful man in Dokhan\n\n";
         $this->assertTrue(true);
     }
 }
