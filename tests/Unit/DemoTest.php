@@ -48,7 +48,10 @@ class DemoTest extends TestCase
      */
     public function testBasicTest()
     {
+        // create String Helper
         $stringHelper = $this->app->make("StringHelper");
-        $this->assertTrue(true);
+
+        // check toTag method
+        $this->assertTrue($stringHelper->toTag("TestCase")=="test_case");
     }
 }
