@@ -74,24 +74,12 @@ class StringHelper
      * @param $string
      * @return mixed
      */
-    public function toClassCamel($string)
+    public function toPascal($string)
     {
         $stringArray = explode('_', $string);
         for ($i = 0; $i < count($stringArray);$i++){
             $stringArray[$i] = $this->upperFirstLetter($stringArray[$i]);
         }
         return implode('', $stringArray);
-    }
-
-    /**
-     * @param $string
-     * @return bool|string
-     */
-    public function singular($string)
-    {
-        if (substr($string, -1) == 's' || substr($string, -1) == 'S') {
-            return substr($string, 0, -1);
-        }
-        return $string;
     }
 }

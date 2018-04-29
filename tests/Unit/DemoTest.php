@@ -53,5 +53,17 @@ class DemoTest extends TestCase
 
         // check toTag method
         $this->assertTrue($stringHelper->toTag("TestCase")=="test_case");
+
+        // upperFirstLetter
+        $this->assertTrue($stringHelper->upperFirstLetter("testCase")=="TestCase");
+
+        // lowerFirstLetter
+        $this->assertTrue($stringHelper->lowerFirstLetter("TestCase")=="testCase");
+
+        // toCamel
+        $this->assertTrue($stringHelper->toCamel("test_case")=="testCase");
+
+        // toPascal
+        $this->assertTrue($stringHelper->toPascal("test_case")=="TestCase");
     }
 }
