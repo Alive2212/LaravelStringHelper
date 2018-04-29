@@ -7,21 +7,15 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Babak Nodoust``` ```https://github.com/Alive2212``` ```http://babakn.com``` ```alive2212@yahoo.com``` ```Alive2212``` ```LaravelStringHelper``` ```This is package contain use full string methods``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This package contain useful method for Strings variables.
 
 ## Structure
 
-If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
+This package contain a base class and some test units. and project folder as following:
 
 ```
-bin/        
-config/
 src/
 tests/
-vendor/
 ```
 
 
@@ -60,8 +54,7 @@ If you discover any security related issues, please email alive2212@yahoo.com in
 
 ## Credits
 
-- [Babak Nodoust][link-author]
-- [All Contributors][link-contributors]
+- Babak Nodoust
 
 ## License
 
