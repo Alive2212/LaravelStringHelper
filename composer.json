@@ -17,11 +17,11 @@
         }
     ],
     "require": {
-        "illuminate/support": "~5.1",
+        "illuminate/support": "~6",
         "php" : "~5.6|~7.0"
     },
     "require-dev": {
-        "illuminate/support": "~5.1",
+        "illuminate/support": "~6",
         "illuminate/container" : "*",
         "phpunit/phpunit" : ">=5.4.3",
         "squizlabs/php_codesniffer": "^2.3"
